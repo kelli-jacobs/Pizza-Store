@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kelli's Pizza Menu</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="one">
+            <h1>Kelli's Pizza</h1>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="buildyourpizza.html">Customize</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li id="login"><a href="index.html">Log In</a></li>
+            </ul>
+            </div>
+        <h1>Menu Items</h1>
+
+        <p id="deliverycarryout">
+            <span class="choose">Choose One:</span>
+            <input type="radio" name="deliverycarryout" value="delivery" checked="checked"> Delivery
+            <label></label>
+            <input type="radio" name="deliverycarryout" value="delivery"> Carry Out
+            <br><br>
+        </p>
+        <div id="menuitems">
+            <form action="menu.html">
+                <p class="crust" id="underline">Choose your crust:
+                    <br><br>
+                    <input type="radio" name="crust type" value="handtossed" checked="checked"> Handtossed
+                    <br>
+                    <input type="radio" name="crust type" value="thin"> Thin
+                    <br>
+                    <input type="radio" name="crust type" value="stuffed"> Stuffed Crust
+                </p><br>
+            </form>
+
+        
+            <form action="menu.html">
+                <p class="pizza" id="underline">Select your Pizza: <br><br>
+                    <label class="radio-container">
+                    <input type="radio" name="pizzacategory" value="supreme" checked="checked"> Supreme <br>
+                    <input type="radio" name="pizzacategory" value="meatlovers"> Meatlovers <br>
+                    <input type="radio" name="pizzacategory" value="veggielovers"> Veggielovers <br>
+                    <input type="radio" name="pizzacategory" value="pepperoni"> Pepperoni <br>
+                    <input type="radio" name="pizzacategory" value="sausage"> Sausage <br>
+                    <input type="radio" name="pizzacategory" value="cheese"> Cheese <br>
+                    </label>
+                </p>
+                <br>
+            </form>
+            <div class="menuitems2">
+                <h3>Special Instructions</h3>
+                <label>List special instructions</label> <br>
+                <textarea name="comments" cols="25" rows="6">Instructions here...</textarea>
+                 
+            </div><br><br>
+
+
+
+            <input type="submit" class="button" value="Order Now">
+        </div>
+        <footer>    
+            <ul class="footer">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="menu.html">Menu</a></li>
+       
+                <li><a href="buildyourpizza.html">Customize</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+                 
+            </ul>
+        </footer>
+    </body>
+</html>
